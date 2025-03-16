@@ -1,4 +1,4 @@
-package com.sumerge.security.dto;
+package com.aos.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

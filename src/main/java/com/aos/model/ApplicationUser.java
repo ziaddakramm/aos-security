@@ -1,4 +1,4 @@
-package com.sumerge.security.model;
+package com.aos.model;
 
 
 

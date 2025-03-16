@@ -1,6 +1,6 @@
-package com.sumerge.security.dto;
+package com.aos.dto;
 
-import com.sumerge.security.model.Role;
+import com.aos.model.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

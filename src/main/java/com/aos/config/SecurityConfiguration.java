@@ -1,6 +1,6 @@
-package com.sumerge.security.config;
+package com.aos.config;
 
-import com.sumerge.security.component.JwtAuthenticationFilter;
+import com.aos.component.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

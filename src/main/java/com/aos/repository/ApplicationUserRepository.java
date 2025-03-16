@@ -1,8 +1,8 @@
-package com.sumerge.security.repository;
+package com.aos.repository;
 
 import java.util.Optional;
 
-import com.sumerge.security.model.ApplicationUser;
+import com.aos.model.ApplicationUser;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ApplicationUserRepository extends MongoRepository<ApplicationUser, String> {

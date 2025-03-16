@@ -1,12 +1,12 @@
-package com.sumerge.security.service;
+package com.aos.service;
 
-import com.sumerge.security.dto.AuthenticationRequest;
-import com.sumerge.security.dto.AuthenticationResponse;
-import com.sumerge.security.dto.RegisterRequest;
-import com.sumerge.security.component.JwtService;
-import com.sumerge.security.model.Role;
-import com.sumerge.security.model.ApplicationUser;
-import com.sumerge.security.repository.ApplicationUserRepository;
+import com.aos.component.JwtService;
+import com.aos.dto.AuthenticationRequest;
+import com.aos.dto.AuthenticationResponse;
+import com.aos.dto.RegisterRequest;
+import com.aos.model.ApplicationUser;
+import com.aos.model.Role;
+import com.aos.repository.ApplicationUserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

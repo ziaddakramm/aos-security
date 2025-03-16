@@ -1,9 +1,9 @@
-package com.sumerge.security.controller;
+package com.aos.controller;
 
-import com.sumerge.security.dto.AuthenticationRequest;
-import com.sumerge.security.dto.AuthenticationResponse;
-import com.sumerge.security.service.AuthenticationService;
-import com.sumerge.security.dto.RegisterRequest;
+import com.aos.dto.AuthenticationRequest;
+import com.aos.dto.AuthenticationResponse;
+import com.aos.dto.RegisterRequest;
+import com.aos.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

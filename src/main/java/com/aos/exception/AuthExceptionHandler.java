@@ -1,7 +1,7 @@
-package com.sumerge.security.exception;
+package com.aos.exception;
 
 
-import com.sumerge.security.dto.AuthErrorResponse;
+import com.aos.dto.AuthErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

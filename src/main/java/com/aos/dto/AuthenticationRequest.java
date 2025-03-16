@@ -1,4 +1,4 @@
-package com.sumerge.security.dto;
+package com.aos.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

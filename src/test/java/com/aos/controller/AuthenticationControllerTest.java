@@ -1,13 +1,14 @@
-package com.sumerge.security.controller;
+package com.aos.controller;
 
+import com.aos.dto.AuthenticationRequest;
+import com.aos.dto.AuthenticationResponse;
+import com.aos.model.ApplicationUser;
+import com.aos.model.Role;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sumerge.security.component.JwtService;
-import com.sumerge.security.dto.AuthenticationRequest;
-import com.sumerge.security.dto.AuthenticationResponse;
-import com.sumerge.security.dto.RegisterRequest;
-import com.sumerge.security.model.*;
-import com.sumerge.security.repository.ApplicationUserRepository;
-import com.sumerge.security.service.AuthenticationService;
+import com.aos.component.JwtService;
+import com.aos.dto.RegisterRequest;
+import com.aos.repository.ApplicationUserRepository;
+import com.aos.service.AuthenticationService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -49,7 +50,7 @@ public class AuthenticationControllerTest {
     @Test
     public void register() throws Exception {
 
-        RegisterRequest mockRequest=new RegisterRequest("za@gmail.com","123456",Role.USER);
+        RegisterRequest mockRequest=new RegisterRequest("za@gmail.com","123456", Role.USER);
         AuthenticationResponse mockResponse=getMockResponse();
 
         given(authService.register(mockRequest)).willReturn(mockResponse);

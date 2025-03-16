@@ -1,7 +1,7 @@
-package com.sumerge.security.config;
+package com.aos.config;
 
 
-import com.sumerge.security.repository.ApplicationUserRepository;
+import com.aos.repository.ApplicationUserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

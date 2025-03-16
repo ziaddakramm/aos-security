@@ -1,4 +1,4 @@
-package com.sumerge.security.component;
+package com.aos.component;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
